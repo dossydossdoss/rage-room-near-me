@@ -1,11 +1,28 @@
 import Link from 'next/link'
 import { MapPin, Hammer, Users, ChevronRight } from 'lucide-react'
 import { allStates, allListings, topRated } from '@/lib/data'
-import ListingCard from '@/components/ListingCard'
 import HomeSearch from '@/components/HomeSearch'
+import FeaturedCarousel from '@/components/FeaturedCarousel'
+
+// Seeded shuffle — consistent per build, different from alphabetical
+function seededShuffle<T>(arr: T[]): T[] {
+  const a = [...arr]
+  let seed = 42
+  const rand = () => {
+    seed = (seed * 1664525 + 1013904223) & 0xffffffff
+    return (seed >>> 0) / 0xffffffff
+  }
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
 
 export default function HomePage() {
-  const featured = topRated(allListings, 6)
+  // Take top 60 rated (4.5+), shuffle, pick 36
+  const pool = allListings.filter(l => l.rating && l.rating >= 4.5)
+  const featured = seededShuffle(pool).slice(0, 36)
   const stats = {
     listings: allListings.length,
     states: allStates.length,
@@ -63,19 +80,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Featured listings */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
+      {/* Featured carousel */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-8 py-12">
         <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl font-bold text-gray-900">Top Rated Rage Rooms</h2>
-          <Link href="/activities/rage-room" className="text-red-600 font-medium text-sm flex items-center gap-1 hover:text-red-700">
+          <div>
+            <h2 className="text-2xl font-bold text-gray-900">Top Rated Rage Rooms</h2>
+          </div>
+          <Link href="/activities/rage-room" className="text-red-600 font-medium text-sm flex items-center gap-1 hover:text-red-700 shrink-0">
             View all <ChevronRight className="w-4 h-4" />
           </Link>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {featured.map(listing => (
-            <ListingCard key={`${listing.state_slug}-${listing.city_slug}-${listing.slug}`} listing={listing} featured />
-          ))}
-        </div>
+        <FeaturedCarousel listings={featured} />
       </section>
 
       {/* Browse by State */}

@@ -12,6 +12,7 @@ export default function Nav() {
           <Link href="/activities" className="hover:text-red-600 transition-colors hidden sm:block">Browse</Link>
           <Link href="/occasions" className="hover:text-red-600 transition-colors hidden sm:block">Occasions</Link>
           <Link href="/states" className="hover:text-red-600 transition-colors hidden sm:block">All States</Link>
+          <Link href="/blog" className="hover:text-red-600 transition-colors hidden sm:block">Blog</Link>
         </div>
       </div>
     </nav>

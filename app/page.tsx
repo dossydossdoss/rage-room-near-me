@@ -38,25 +38,26 @@ export default function HomePage() {
       </section>
 
       {/* Quick filter nav */}
-      <section className="bg-white border-b border-gray-200 py-4 px-4 overflow-x-auto">
-        <div className="max-w-7xl mx-auto flex gap-3 min-w-max">
+      <section className="bg-white border-b border-gray-200 py-4 overflow-x-auto">
+        <div className="flex gap-3 px-4 w-max mx-auto">
           {[
-            { href: '/activities/rage-room', label: '💥 Rage Room' },
-            { href: '/activities/axe-throwing', label: '🪓 Axe Throwing' },
-            { href: '/activities/paint-room', label: '🎨 Paint Room' },
-            { href: '/activities/car-smash', label: '🚗 Car Smash' },
-            { href: '/occasions/birthday', label: '🎂 Birthday' },
-            { href: '/occasions/bachelorette', label: '💍 Bachelorette' },
-            { href: '/occasions/corporate', label: '💼 Corporate' },
-            { href: '/occasions/date-night', label: '❤️ Date Night' },
-            { href: '/occasions/kids', label: '👧 Kids' },
+            { href: '/activities/rage-room', emoji: '💥', label: 'Rage Room' },
+            { href: '/activities/axe-throwing', emoji: '🪓', label: 'Axe Throwing' },
+            { href: '/activities/paint-room', emoji: '🎨', label: 'Paint Room' },
+            { href: '/activities/car-smash', emoji: '🚗', label: 'Car Smash' },
+            { href: '/occasions/birthday', emoji: '🎂', label: 'Birthday' },
+            { href: '/occasions/bachelorette', emoji: '💍', label: 'Bachelorette' },
+            { href: '/occasions/corporate', emoji: '💼', label: 'Corporate' },
+            { href: '/occasions/date-night', emoji: '❤️', label: 'Date Night' },
+            { href: '/occasions/kids', emoji: '👧', label: 'Kids' },
           ].map(item => (
             <Link
               key={item.href}
               href={item.href}
-              className="whitespace-nowrap px-4 py-2 rounded-full border border-gray-200 text-sm font-medium text-gray-600 hover:border-red-400 hover:text-red-600 hover:bg-red-50 transition-colors"
+              className="inline-flex items-center gap-1.5 whitespace-nowrap px-4 py-2 rounded-full border border-gray-200 text-sm font-medium text-gray-600 hover:border-red-400 hover:text-red-600 hover:bg-red-50 transition-colors"
             >
-              {item.label}
+              <span className="leading-none">{item.emoji}</span>
+              <span>{item.label}</span>
             </Link>
           ))}
         </div>

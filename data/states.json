@@ -1,0 +1,1728 @@
+[
+  {
+    "name": "Alabama",
+    "slug": "alabama",
+    "count": 6,
+    "cities": [
+      {
+        "name": "Mobile",
+        "slug": "mobile",
+        "count": 1
+      },
+      {
+        "name": "Montgomery",
+        "slug": "montgomery",
+        "count": 1
+      },
+      {
+        "name": "Dothan",
+        "slug": "dothan",
+        "count": 1
+      },
+      {
+        "name": "Birmingham",
+        "slug": "birmingham",
+        "count": 1
+      },
+      {
+        "name": "Huntsville",
+        "slug": "huntsville",
+        "count": 1
+      },
+      {
+        "name": "Opelika",
+        "slug": "opelika",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Arizona",
+    "slug": "arizona",
+    "count": 5,
+    "cities": [
+      {
+        "name": "Phoenix",
+        "slug": "phoenix",
+        "count": 2
+      },
+      {
+        "name": "Glendale",
+        "slug": "glendale",
+        "count": 1
+      },
+      {
+        "name": "Tucson",
+        "slug": "tucson",
+        "count": 1
+      },
+      {
+        "name": "New River",
+        "slug": "new-river",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Arkansas",
+    "slug": "arkansas",
+    "count": 4,
+    "cities": [
+      {
+        "name": "Jonesboro",
+        "slug": "jonesboro",
+        "count": 1
+      },
+      {
+        "name": "North Little Rock",
+        "slug": "north-little-rock",
+        "count": 1
+      },
+      {
+        "name": "Fayetteville",
+        "slug": "fayetteville",
+        "count": 1
+      },
+      {
+        "name": "Bryant",
+        "slug": "bryant",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "California",
+    "slug": "california",
+    "count": 25,
+    "cities": [
+      {
+        "name": "Fresno",
+        "slug": "fresno",
+        "count": 3
+      },
+      {
+        "name": "San Diego",
+        "slug": "san-diego",
+        "count": 2
+      },
+      {
+        "name": "San Francisco",
+        "slug": "san-francisco",
+        "count": 2
+      },
+      {
+        "name": "San Jose",
+        "slug": "san-jose",
+        "count": 2
+      },
+      {
+        "name": "Tarzana",
+        "slug": "tarzana",
+        "count": 1
+      },
+      {
+        "name": "Van Nuys",
+        "slug": "van-nuys",
+        "count": 1
+      },
+      {
+        "name": "Pleasanton",
+        "slug": "pleasanton",
+        "count": 1
+      },
+      {
+        "name": "Citrus Heights",
+        "slug": "citrus-heights",
+        "count": 1
+      },
+      {
+        "name": "Sacramento",
+        "slug": "sacramento",
+        "count": 1
+      },
+      {
+        "name": "Lake Forest",
+        "slug": "lake-forest",
+        "count": 1
+      },
+      {
+        "name": "Tustin",
+        "slug": "tustin",
+        "count": 1
+      },
+      {
+        "name": "Temecula",
+        "slug": "temecula",
+        "count": 1
+      },
+      {
+        "name": "Bakersfield",
+        "slug": "bakersfield",
+        "count": 1
+      },
+      {
+        "name": "Oceanside",
+        "slug": "oceanside",
+        "count": 1
+      },
+      {
+        "name": "Simi Valley",
+        "slug": "simi-valley",
+        "count": 1
+      },
+      {
+        "name": "Los Angeles",
+        "slug": "los-angeles",
+        "count": 1
+      },
+      {
+        "name": "Westminster",
+        "slug": "westminster",
+        "count": 1
+      },
+      {
+        "name": "Oakland",
+        "slug": "oakland",
+        "count": 1
+      },
+      {
+        "name": "Fairfield",
+        "slug": "fairfield",
+        "count": 1
+      },
+      {
+        "name": "Upland",
+        "slug": "upland",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Colorado",
+    "slug": "colorado",
+    "count": 7,
+    "cities": [
+      {
+        "name": "Denver",
+        "slug": "denver",
+        "count": 2
+      },
+      {
+        "name": "Grand Junction",
+        "slug": "grand-junction",
+        "count": 1
+      },
+      {
+        "name": "Westminster",
+        "slug": "westminster",
+        "count": 1
+      },
+      {
+        "name": "Fort Collins",
+        "slug": "fort-collins",
+        "count": 1
+      },
+      {
+        "name": "Craig",
+        "slug": "craig",
+        "count": 1
+      },
+      {
+        "name": "Longmont",
+        "slug": "longmont",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Connecticut",
+    "slug": "connecticut",
+    "count": 2,
+    "cities": [
+      {
+        "name": "West Hartford",
+        "slug": "west-hartford",
+        "count": 1
+      },
+      {
+        "name": "Derby",
+        "slug": "derby",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Delaware",
+    "slug": "delaware",
+    "count": 2,
+    "cities": [
+      {
+        "name": "Dover",
+        "slug": "dover",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name": "Florida",
+    "slug": "florida",
+    "count": 26,
+    "cities": [
+      {
+        "name": "Orange Park",
+        "slug": "orange-park",
+        "count": 3
+      },
+      {
+        "name": "Panama City Beach",
+        "slug": "panama-city-beach",
+        "count": 3
+      },
+      {
+        "name": "Fort Myers",
+        "slug": "fort-myers",
+        "count": 2
+      },
+      {
+        "name": "Orlando",
+        "slug": "orlando",
+        "count": 2
+      },
+      {
+        "name": "Pinellas Park",
+        "slug": "pinellas-park",
+        "count": 1
+      },
+      {
+        "name": "Pensacola",
+        "slug": "pensacola",
+        "count": 1
+      },
+      {
+        "name": "Brandon",
+        "slug": "brandon",
+        "count": 1
+      },
+      {
+        "name": "Stuart",
+        "slug": "stuart",
+        "count": 1
+      },
+      {
+        "name": "Tallahassee",
+        "slug": "tallahassee",
+        "count": 1
+      },
+      {
+        "name": "Sanford",
+        "slug": "sanford",
+        "count": 1
+      },
+      {
+        "name": "Bayonet Point",
+        "slug": "bayonet-point",
+        "count": 1
+      },
+      {
+        "name": "Riviera Beach",
+        "slug": "riviera-beach",
+        "count": 1
+      },
+      {
+        "name": "Davie",
+        "slug": "davie",
+        "count": 1
+      },
+      {
+        "name": "Kissimmee",
+        "slug": "kissimmee",
+        "count": 1
+      },
+      {
+        "name": "Port Charlotte",
+        "slug": "port-charlotte",
+        "count": 1
+      },
+      {
+        "name": "North Miami Beach",
+        "slug": "north-miami-beach",
+        "count": 1
+      },
+      {
+        "name": "Daytona Beach",
+        "slug": "daytona-beach",
+        "count": 1
+      },
+      {
+        "name": "Melbourne",
+        "slug": "melbourne",
+        "count": 1
+      },
+      {
+        "name": "Jacksonville Beach",
+        "slug": "jacksonville-beach",
+        "count": 1
+      },
+      {
+        "name": "Miami",
+        "slug": "miami",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Georgia",
+    "slug": "georgia",
+    "count": 13,
+    "cities": [
+      {
+        "name": "Newnan",
+        "slug": "newnan",
+        "count": 3
+      },
+      {
+        "name": "Columbus",
+        "slug": "columbus",
+        "count": 1
+      },
+      {
+        "name": "Austell",
+        "slug": "austell",
+        "count": 1
+      },
+      {
+        "name": "Athens",
+        "slug": "athens",
+        "count": 1
+      },
+      {
+        "name": "Sugar Hill",
+        "slug": "sugar-hill",
+        "count": 1
+      },
+      {
+        "name": "Atlanta",
+        "slug": "atlanta",
+        "count": 1
+      },
+      {
+        "name": "Carrollton",
+        "slug": "carrollton",
+        "count": 1
+      },
+      {
+        "name": "Powder Springs",
+        "slug": "powder-springs",
+        "count": 1
+      },
+      {
+        "name": "Resaca",
+        "slug": "resaca",
+        "count": 1
+      },
+      {
+        "name": "Augusta",
+        "slug": "augusta",
+        "count": 1
+      },
+      {
+        "name": "Albany",
+        "slug": "albany",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Hawaii",
+    "slug": "hawaii",
+    "count": 1,
+    "cities": [
+      {
+        "name": "Honolulu",
+        "slug": "honolulu",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Idaho",
+    "slug": "idaho",
+    "count": 1,
+    "cities": [
+      {
+        "name": "Twin Falls",
+        "slug": "twin-falls",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Illinois",
+    "slug": "illinois",
+    "count": 7,
+    "cities": [
+      {
+        "name": "Joliet",
+        "slug": "joliet",
+        "count": 1
+      },
+      {
+        "name": "DeKalb",
+        "slug": "dekalb",
+        "count": 1
+      },
+      {
+        "name": "Carbondale",
+        "slug": "carbondale",
+        "count": 1
+      },
+      {
+        "name": "Chicago Heights",
+        "slug": "chicago-heights",
+        "count": 1
+      },
+      {
+        "name": "Naperville",
+        "slug": "naperville",
+        "count": 1
+      },
+      {
+        "name": "Machesney Park",
+        "slug": "machesney-park",
+        "count": 1
+      },
+      {
+        "name": "Springfield",
+        "slug": "springfield",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Indiana",
+    "slug": "indiana",
+    "count": 9,
+    "cities": [
+      {
+        "name": "Indianapolis",
+        "slug": "indianapolis",
+        "count": 2
+      },
+      {
+        "name": "Fort Wayne",
+        "slug": "fort-wayne",
+        "count": 1
+      },
+      {
+        "name": "Evansville",
+        "slug": "evansville",
+        "count": 1
+      },
+      {
+        "name": "Goshen",
+        "slug": "goshen",
+        "count": 1
+      },
+      {
+        "name": "Cedar Lake",
+        "slug": "cedar-lake",
+        "count": 1
+      },
+      {
+        "name": "Lafayette",
+        "slug": "lafayette",
+        "count": 1
+      },
+      {
+        "name": "Jeffersonville",
+        "slug": "jeffersonville",
+        "count": 1
+      },
+      {
+        "name": "Greenfield",
+        "slug": "greenfield",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Iowa",
+    "slug": "iowa",
+    "count": 6,
+    "cities": [
+      {
+        "name": "Des Moines",
+        "slug": "des-moines",
+        "count": 2
+      },
+      {
+        "name": "Anamosa",
+        "slug": "anamosa",
+        "count": 1
+      },
+      {
+        "name": "Sioux City",
+        "slug": "sioux-city",
+        "count": 1
+      },
+      {
+        "name": "Cedar Falls",
+        "slug": "cedar-falls",
+        "count": 1
+      },
+      {
+        "name": "Urbandale",
+        "slug": "urbandale",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Kansas",
+    "slug": "kansas",
+    "count": 3,
+    "cities": [
+      {
+        "name": "Topeka",
+        "slug": "topeka",
+        "count": 1
+      },
+      {
+        "name": "Stilwell",
+        "slug": "stilwell",
+        "count": 1
+      },
+      {
+        "name": "Wichita",
+        "slug": "wichita",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Kentucky",
+    "slug": "kentucky",
+    "count": 4,
+    "cities": [
+      {
+        "name": "Lexington",
+        "slug": "lexington",
+        "count": 2
+      },
+      {
+        "name": "Louisville",
+        "slug": "louisville",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name": "Louisiana",
+    "slug": "louisiana",
+    "count": 4,
+    "cities": [
+      {
+        "name": "New Orleans",
+        "slug": "new-orleans",
+        "count": 2
+      },
+      {
+        "name": "Broussard",
+        "slug": "broussard",
+        "count": 1
+      },
+      {
+        "name": "Baton Rouge",
+        "slug": "baton-rouge",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Maine",
+    "slug": "maine",
+    "count": 1,
+    "cities": [
+      {
+        "name": "Ellsworth",
+        "slug": "ellsworth",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Maryland",
+    "slug": "maryland",
+    "count": 6,
+    "cities": [
+      {
+        "name": "Glen Burnie",
+        "slug": "glen-burnie",
+        "count": 2
+      },
+      {
+        "name": "Bel Air",
+        "slug": "bel-air",
+        "count": 1
+      },
+      {
+        "name": "Gaithersburg",
+        "slug": "gaithersburg",
+        "count": 1
+      },
+      {
+        "name": "Frederick",
+        "slug": "frederick",
+        "count": 1
+      },
+      {
+        "name": "Lexington Park",
+        "slug": "lexington-park",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Massachusetts",
+    "slug": "massachusetts",
+    "count": 6,
+    "cities": [
+      {
+        "name": "Springfield",
+        "slug": "springfield",
+        "count": 1
+      },
+      {
+        "name": "Taunton",
+        "slug": "taunton",
+        "count": 1
+      },
+      {
+        "name": "Fitchburg",
+        "slug": "fitchburg",
+        "count": 1
+      },
+      {
+        "name": "Dartmouth",
+        "slug": "dartmouth",
+        "count": 1
+      },
+      {
+        "name": "Seekonk",
+        "slug": "seekonk",
+        "count": 1
+      },
+      {
+        "name": "Avon",
+        "slug": "avon",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Michigan",
+    "slug": "michigan",
+    "count": 19,
+    "cities": [
+      {
+        "name": "Sterling Heights",
+        "slug": "sterling-heights",
+        "count": 2
+      },
+      {
+        "name": "St Joseph",
+        "slug": "st-joseph",
+        "count": 2
+      },
+      {
+        "name": "Farmington",
+        "slug": "farmington",
+        "count": 2
+      },
+      {
+        "name": "Mt Pleasant",
+        "slug": "mt-pleasant",
+        "count": 1
+      },
+      {
+        "name": "Birch Run",
+        "slug": "birch-run",
+        "count": 1
+      },
+      {
+        "name": "Traverse City",
+        "slug": "traverse-city",
+        "count": 1
+      },
+      {
+        "name": "Byron Center",
+        "slug": "byron-center",
+        "count": 1
+      },
+      {
+        "name": "Okemos",
+        "slug": "okemos",
+        "count": 1
+      },
+      {
+        "name": "Lansing",
+        "slug": "lansing",
+        "count": 1
+      },
+      {
+        "name": "Madison Heights",
+        "slug": "madison-heights",
+        "count": 1
+      },
+      {
+        "name": "Chesterfield",
+        "slug": "chesterfield",
+        "count": 1
+      },
+      {
+        "name": "Canton Township",
+        "slug": "canton-township",
+        "count": 1
+      },
+      {
+        "name": "Detroit",
+        "slug": "detroit",
+        "count": 1
+      },
+      {
+        "name": "Grayling",
+        "slug": "grayling",
+        "count": 1
+      },
+      {
+        "name": "Oxford",
+        "slug": "oxford",
+        "count": 1
+      },
+      {
+        "name": "Wyandotte",
+        "slug": "wyandotte",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Minnesota",
+    "slug": "minnesota",
+    "count": 3,
+    "cities": [
+      {
+        "name": "St Louis Park",
+        "slug": "st-louis-park",
+        "count": 1
+      },
+      {
+        "name": "Savage",
+        "slug": "savage",
+        "count": 1
+      },
+      {
+        "name": "Sauk Rapids",
+        "slug": "sauk-rapids",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Mississippi",
+    "slug": "mississippi",
+    "count": 3,
+    "cities": [
+      {
+        "name": "Pearl",
+        "slug": "pearl",
+        "count": 1
+      },
+      {
+        "name": "Hattiesburg",
+        "slug": "hattiesburg",
+        "count": 1
+      },
+      {
+        "name": "Jackson",
+        "slug": "jackson",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Missouri",
+    "slug": "missouri",
+    "count": 7,
+    "cities": [
+      {
+        "name": "Springfield",
+        "slug": "springfield",
+        "count": 1
+      },
+      {
+        "name": "Kansas City",
+        "slug": "kansas-city",
+        "count": 1
+      },
+      {
+        "name": "Imperial",
+        "slug": "imperial",
+        "count": 1
+      },
+      {
+        "name": "St Charles",
+        "slug": "st-charles",
+        "count": 1
+      },
+      {
+        "name": "Park Hills",
+        "slug": "park-hills",
+        "count": 1
+      },
+      {
+        "name": "Rolla",
+        "slug": "rolla",
+        "count": 1
+      },
+      {
+        "name": "Columbia",
+        "slug": "columbia",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Montana",
+    "slug": "montana",
+    "count": 2,
+    "cities": [
+      {
+        "name": "Missoula",
+        "slug": "missoula",
+        "count": 1
+      },
+      {
+        "name": "Billings",
+        "slug": "billings",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Nebraska",
+    "slug": "nebraska",
+    "count": 3,
+    "cities": [
+      {
+        "name": "Omaha",
+        "slug": "omaha",
+        "count": 1
+      },
+      {
+        "name": "Lincoln",
+        "slug": "lincoln",
+        "count": 1
+      },
+      {
+        "name": "Norfolk",
+        "slug": "norfolk",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Nevada",
+    "slug": "nevada",
+    "count": 6,
+    "cities": [
+      {
+        "name": "Las Vegas",
+        "slug": "las-vegas",
+        "count": 3
+      },
+      {
+        "name": "Sparks",
+        "slug": "sparks",
+        "count": 2
+      },
+      {
+        "name": "Reno",
+        "slug": "reno",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "New Hampshire",
+    "slug": "new-hampshire",
+    "count": 1,
+    "cities": [
+      {
+        "name": "Manchester",
+        "slug": "manchester",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "New Jersey",
+    "slug": "new-jersey",
+    "count": 4,
+    "cities": [
+      {
+        "name": "Pompton Plains",
+        "slug": "pompton-plains",
+        "count": 1
+      },
+      {
+        "name": "Toms River",
+        "slug": "toms-river",
+        "count": 1
+      },
+      {
+        "name": "Pompton Lakes",
+        "slug": "pompton-lakes",
+        "count": 1
+      },
+      {
+        "name": "Stratford",
+        "slug": "stratford",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "New Mexico",
+    "slug": "new-mexico",
+    "count": 2,
+    "cities": [
+      {
+        "name": "Albuquerque",
+        "slug": "albuquerque",
+        "count": 1
+      },
+      {
+        "name": "Carlsbad",
+        "slug": "carlsbad",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "New York",
+    "slug": "new-york",
+    "count": 14,
+    "cities": [
+      {
+        "name": "New York",
+        "slug": "new-york",
+        "count": 2
+      },
+      {
+        "name": "Yonkers",
+        "slug": "yonkers",
+        "count": 1
+      },
+      {
+        "name": "Brooklyn",
+        "slug": "brooklyn",
+        "count": 1
+      },
+      {
+        "name": "Syracuse",
+        "slug": "syracuse",
+        "count": 1
+      },
+      {
+        "name": "Rochester",
+        "slug": "rochester",
+        "count": 1
+      },
+      {
+        "name": "Farmingdale",
+        "slug": "farmingdale",
+        "count": 1
+      },
+      {
+        "name": "Vestal",
+        "slug": "vestal",
+        "count": 1
+      },
+      {
+        "name": "Selden",
+        "slug": "selden",
+        "count": 1
+      },
+      {
+        "name": "Westbury",
+        "slug": "westbury",
+        "count": 1
+      },
+      {
+        "name": "Niagara Falls",
+        "slug": "niagara-falls",
+        "count": 1
+      },
+      {
+        "name": "Middletown",
+        "slug": "middletown",
+        "count": 1
+      },
+      {
+        "name": "Poughkeepsie",
+        "slug": "poughkeepsie",
+        "count": 1
+      },
+      {
+        "name": "Fultonville",
+        "slug": "fultonville",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "North Carolina",
+    "slug": "north-carolina",
+    "count": 10,
+    "cities": [
+      {
+        "name": "Wake Forest",
+        "slug": "wake-forest",
+        "count": 1
+      },
+      {
+        "name": "Durham",
+        "slug": "durham",
+        "count": 1
+      },
+      {
+        "name": "Greenville",
+        "slug": "greenville",
+        "count": 1
+      },
+      {
+        "name": "Concord",
+        "slug": "concord",
+        "count": 1
+      },
+      {
+        "name": "Asheville",
+        "slug": "asheville",
+        "count": 1
+      },
+      {
+        "name": "Charlotte",
+        "slug": "charlotte",
+        "count": 1
+      },
+      {
+        "name": "Burlington",
+        "slug": "burlington",
+        "count": 1
+      },
+      {
+        "name": "Mooresville",
+        "slug": "mooresville",
+        "count": 1
+      },
+      {
+        "name": "Hickory",
+        "slug": "hickory",
+        "count": 1
+      },
+      {
+        "name": "Fayetteville",
+        "slug": "fayetteville",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "North Dakota",
+    "slug": "north-dakota",
+    "count": 1,
+    "cities": [
+      {
+        "name": "Bismarck",
+        "slug": "bismarck",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Ohio",
+    "slug": "ohio",
+    "count": 10,
+    "cities": [
+      {
+        "name": "Cincinnati",
+        "slug": "cincinnati",
+        "count": 2
+      },
+      {
+        "name": "Sandusky",
+        "slug": "sandusky",
+        "count": 2
+      },
+      {
+        "name": "Willowick",
+        "slug": "willowick",
+        "count": 1
+      },
+      {
+        "name": "Wapakoneta",
+        "slug": "wapakoneta",
+        "count": 1
+      },
+      {
+        "name": "Kent",
+        "slug": "kent",
+        "count": 1
+      },
+      {
+        "name": "Akron",
+        "slug": "akron",
+        "count": 1
+      },
+      {
+        "name": "Bucyrus",
+        "slug": "bucyrus",
+        "count": 1
+      },
+      {
+        "name": "Columbus",
+        "slug": "columbus",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Oklahoma",
+    "slug": "oklahoma",
+    "count": 4,
+    "cities": [
+      {
+        "name": "Broken Arrow",
+        "slug": "broken-arrow",
+        "count": 1
+      },
+      {
+        "name": "Tulsa",
+        "slug": "tulsa",
+        "count": 1
+      },
+      {
+        "name": "Oklahoma City",
+        "slug": "oklahoma-city",
+        "count": 1
+      },
+      {
+        "name": "Guthrie",
+        "slug": "guthrie",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Oregon",
+    "slug": "oregon",
+    "count": 4,
+    "cities": [
+      {
+        "name": "Portland",
+        "slug": "portland",
+        "count": 2
+      },
+      {
+        "name": "Salem",
+        "slug": "salem",
+        "count": 1
+      },
+      {
+        "name": "Medford",
+        "slug": "medford",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Pennsylvania",
+    "slug": "pennsylvania",
+    "count": 10,
+    "cities": [
+      {
+        "name": "Phoenixville",
+        "slug": "phoenixville",
+        "count": 1
+      },
+      {
+        "name": "Souderton",
+        "slug": "souderton",
+        "count": 1
+      },
+      {
+        "name": "Greenville",
+        "slug": "greenville",
+        "count": 1
+      },
+      {
+        "name": "Philadelphia",
+        "slug": "philadelphia",
+        "count": 1
+      },
+      {
+        "name": "Pittsburgh",
+        "slug": "pittsburgh",
+        "count": 1
+      },
+      {
+        "name": "Quakertown",
+        "slug": "quakertown",
+        "count": 1
+      },
+      {
+        "name": "West Chester",
+        "slug": "west-chester",
+        "count": 1
+      },
+      {
+        "name": "Hanover",
+        "slug": "hanover",
+        "count": 1
+      },
+      {
+        "name": "York",
+        "slug": "york",
+        "count": 1
+      },
+      {
+        "name": "Honesdale",
+        "slug": "honesdale",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "South Carolina",
+    "slug": "south-carolina",
+    "count": 3,
+    "cities": [
+      {
+        "name": "Charleston",
+        "slug": "charleston",
+        "count": 1
+      },
+      {
+        "name": "Rock Hill",
+        "slug": "rock-hill",
+        "count": 1
+      },
+      {
+        "name": "Taylors",
+        "slug": "taylors",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "South Dakota",
+    "slug": "south-dakota",
+    "count": 2,
+    "cities": [
+      {
+        "name": "Aberdeen",
+        "slug": "aberdeen",
+        "count": 1
+      },
+      {
+        "name": "Spearfish",
+        "slug": "spearfish",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Tennessee",
+    "slug": "tennessee",
+    "count": 8,
+    "cities": [
+      {
+        "name": "Morristown",
+        "slug": "morristown",
+        "count": 1
+      },
+      {
+        "name": "Jackson",
+        "slug": "jackson",
+        "count": 1
+      },
+      {
+        "name": "Memphis",
+        "slug": "memphis",
+        "count": 1
+      },
+      {
+        "name": "Clarksville",
+        "slug": "clarksville",
+        "count": 1
+      },
+      {
+        "name": "Piney Flats",
+        "slug": "piney-flats",
+        "count": 1
+      },
+      {
+        "name": "Nashville",
+        "slug": "nashville",
+        "count": 1
+      },
+      {
+        "name": "Sevierville",
+        "slug": "sevierville",
+        "count": 1
+      },
+      {
+        "name": "Maryville",
+        "slug": "maryville",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Texas",
+    "slug": "texas",
+    "count": 27,
+    "cities": [
+      {
+        "name": "Humble",
+        "slug": "humble",
+        "count": 2
+      },
+      {
+        "name": "Spring",
+        "slug": "spring",
+        "count": 2
+      },
+      {
+        "name": "Houston",
+        "slug": "houston",
+        "count": 2
+      },
+      {
+        "name": "Arlington",
+        "slug": "arlington",
+        "count": 2
+      },
+      {
+        "name": "San Antonio",
+        "slug": "san-antonio",
+        "count": 2
+      },
+      {
+        "name": "El Paso",
+        "slug": "el-paso",
+        "count": 1
+      },
+      {
+        "name": "New Braunfels",
+        "slug": "new-braunfels",
+        "count": 1
+      },
+      {
+        "name": "Bryan",
+        "slug": "bryan",
+        "count": 1
+      },
+      {
+        "name": "Midland",
+        "slug": "midland",
+        "count": 1
+      },
+      {
+        "name": "Mansfield",
+        "slug": "mansfield",
+        "count": 1
+      },
+      {
+        "name": "Fort Worth",
+        "slug": "fort-worth",
+        "count": 1
+      },
+      {
+        "name": "River Oaks",
+        "slug": "river-oaks",
+        "count": 1
+      },
+      {
+        "name": "Austin",
+        "slug": "austin",
+        "count": 1
+      },
+      {
+        "name": "Victoria",
+        "slug": "victoria",
+        "count": 1
+      },
+      {
+        "name": "Seguin",
+        "slug": "seguin",
+        "count": 1
+      },
+      {
+        "name": "Willis",
+        "slug": "willis",
+        "count": 1
+      },
+      {
+        "name": "Edinburg",
+        "slug": "edinburg",
+        "count": 1
+      },
+      {
+        "name": "Pflugerville",
+        "slug": "pflugerville",
+        "count": 1
+      },
+      {
+        "name": "Lubbock",
+        "slug": "lubbock",
+        "count": 1
+      },
+      {
+        "name": "Temple",
+        "slug": "temple",
+        "count": 1
+      },
+      {
+        "name": "Gun Barrel City",
+        "slug": "gun-barrel-city",
+        "count": 1
+      },
+      {
+        "name": "Waco",
+        "slug": "waco",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Utah",
+    "slug": "utah",
+    "count": 8,
+    "cities": [
+      {
+        "name": "Orem",
+        "slug": "orem",
+        "count": 2
+      },
+      {
+        "name": "South Jordan",
+        "slug": "south-jordan",
+        "count": 1
+      },
+      {
+        "name": "American Fork",
+        "slug": "american-fork",
+        "count": 1
+      },
+      {
+        "name": "Salt Lake City",
+        "slug": "salt-lake-city",
+        "count": 1
+      },
+      {
+        "name": "Ogden",
+        "slug": "ogden",
+        "count": 1
+      },
+      {
+        "name": "Layton",
+        "slug": "layton",
+        "count": 1
+      },
+      {
+        "name": "St. George",
+        "slug": "st-george",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Vermont",
+    "slug": "vermont",
+    "count": 1,
+    "cities": [
+      {
+        "name": "South Burlington",
+        "slug": "south-burlington",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Virginia",
+    "slug": "virginia",
+    "count": 7,
+    "cities": [
+      {
+        "name": "Winchester",
+        "slug": "winchester",
+        "count": 1
+      },
+      {
+        "name": "Hollins",
+        "slug": "hollins",
+        "count": 1
+      },
+      {
+        "name": "Richmond",
+        "slug": "richmond",
+        "count": 1
+      },
+      {
+        "name": "Petersburg",
+        "slug": "petersburg",
+        "count": 1
+      },
+      {
+        "name": "Virginia Beach",
+        "slug": "virginia-beach",
+        "count": 1
+      },
+      {
+        "name": "Woodbridge",
+        "slug": "woodbridge",
+        "count": 1
+      },
+      {
+        "name": "Norfolk",
+        "slug": "norfolk",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Washington",
+    "slug": "washington",
+    "count": 6,
+    "cities": [
+      {
+        "name": "Kennewick",
+        "slug": "kennewick",
+        "count": 1
+      },
+      {
+        "name": "Vancouver",
+        "slug": "vancouver",
+        "count": 1
+      },
+      {
+        "name": "Seattle",
+        "slug": "seattle",
+        "count": 1
+      },
+      {
+        "name": "Lynnwood",
+        "slug": "lynnwood",
+        "count": 1
+      },
+      {
+        "name": "Tacoma",
+        "slug": "tacoma",
+        "count": 1
+      },
+      {
+        "name": "Lacey",
+        "slug": "lacey",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "West Virginia",
+    "slug": "west-virginia",
+    "count": 4,
+    "cities": [
+      {
+        "name": "Star City",
+        "slug": "star-city",
+        "count": 1
+      },
+      {
+        "name": "Charleston",
+        "slug": "charleston",
+        "count": 1
+      },
+      {
+        "name": "Welch",
+        "slug": "welch",
+        "count": 1
+      },
+      {
+        "name": "Martinsburg",
+        "slug": "martinsburg",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Wisconsin",
+    "slug": "wisconsin",
+    "count": 7,
+    "cities": [
+      {
+        "name": "Sauk City",
+        "slug": "sauk-city",
+        "count": 1
+      },
+      {
+        "name": "La Crosse",
+        "slug": "la-crosse",
+        "count": 1
+      },
+      {
+        "name": "Appleton",
+        "slug": "appleton",
+        "count": 1
+      },
+      {
+        "name": "Milwaukee",
+        "slug": "milwaukee",
+        "count": 1
+      },
+      {
+        "name": "Racine",
+        "slug": "racine",
+        "count": 1
+      },
+      {
+        "name": "Wauwatosa",
+        "slug": "wauwatosa",
+        "count": 1
+      },
+      {
+        "name": "Green Bay",
+        "slug": "green-bay",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Wyoming",
+    "slug": "wyoming",
+    "count": 2,
+    "cities": [
+      {
+        "name": "Casper",
+        "slug": "casper",
+        "count": 1
+      },
+      {
+        "name": "Cheyenne",
+        "slug": "cheyenne",
+        "count": 1
+      }
+    ]
+  }
+]

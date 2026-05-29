@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import type { Metadata } from 'next'
 import { ChevronRight } from 'lucide-react'
 import { getListingsByActivity } from '@/lib/data'
@@ -14,6 +15,7 @@ const ACTIVITIES = [
     urlSlug: 'rage-room',
     label: 'Rage Room',
     emoji: '💥',
+    image: '/rage-room-activity.webp',
     description: 'Smash TVs, plates, electronics, and more. The original stress-relief experience — gear provided.',
     color: 'bg-red-50 border-red-200 hover:border-red-400',
     badge: 'bg-red-100 text-red-700',
@@ -23,6 +25,7 @@ const ACTIVITIES = [
     urlSlug: 'axe-throwing',
     label: 'Axe Throwing',
     emoji: '🪓',
+    image: '/axe-throwing-activity.webp',
     description: 'Learn to throw axes at targets. Supervised, beginner-friendly, and great for groups.',
     color: 'bg-orange-50 border-orange-200 hover:border-orange-400',
     badge: 'bg-orange-100 text-orange-700',
@@ -32,6 +35,7 @@ const ACTIVITIES = [
     urlSlug: 'paint-room',
     label: 'Paint Room',
     emoji: '🎨',
+    image: '/paint-room-activity.webp',
     description: 'Hurl paint at canvases and walls. Zero cleanup required — all gear provided.',
     color: 'bg-purple-50 border-purple-200 hover:border-purple-400',
     badge: 'bg-purple-100 text-purple-700',
@@ -41,6 +45,7 @@ const ACTIVITIES = [
     urlSlug: 'car-smash',
     label: 'Car Smash',
     emoji: '🚗',
+    image: '/car-smash-activity.webp',
     description: 'Take a sledgehammer to a real car. The ultimate heavy-duty stress reliever.',
     color: 'bg-yellow-50 border-yellow-200 hover:border-yellow-400',
     badge: 'bg-yellow-100 text-yellow-700',
@@ -50,6 +55,7 @@ const ACTIVITIES = [
     urlSlug: 'vr',
     label: 'Virtual Reality',
     emoji: '🥽',
+    image: '/vr-activity.webp',
     description: 'Destroy virtual worlds without the cleanup. VR smash experiences with full immersion.',
     color: 'bg-blue-50 border-blue-200 hover:border-blue-400',
     badge: 'bg-blue-100 text-blue-700',
@@ -59,6 +65,7 @@ const ACTIVITIES = [
     urlSlug: 'archery',
     label: 'Archery',
     emoji: '🏹',
+    image: '/archery-activity.webp',
     description: 'Traditional or combat archery tag in a rage room setting. Precision meets adrenaline.',
     color: 'bg-green-50 border-green-200 hover:border-green-400',
     badge: 'bg-green-100 text-green-700',
@@ -86,9 +93,23 @@ export default function ActivitiesPage() {
             <Link
               key={act.slug}
               href={`/activities/${act.urlSlug}`}
-              className={`group block border-2 rounded-2xl p-6 transition-all hover:shadow-lg ${act.color}`}
+              className={`group block border-2 rounded-2xl overflow-hidden transition-all hover:shadow-lg ${act.color}`}
             >
-              <div className="text-4xl mb-4">{act.emoji}</div>
+              {act.image ? (
+                <div className="relative w-full h-44 overflow-hidden">
+                  <Image
+                    src={act.image}
+                    alt={`${act.label} activity`}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  />
+                </div>
+              ) : (
+                <div className="text-4xl px-6 pt-6 mb-0">{act.emoji}</div>
+              )}
+              <div className="p-6">
+              {act.image && <div className="text-2xl mb-2">{act.emoji}</div>}
               <div className="flex items-start justify-between gap-2 mb-2">
                 <h2 className="text-lg font-bold text-gray-900 group-hover:text-red-700 transition-colors leading-tight">
                   {act.label}
@@ -100,6 +121,7 @@ export default function ActivitiesPage() {
               <p className="text-sm text-gray-600 leading-relaxed">{act.description}</p>
               <div className="mt-4 text-sm font-semibold text-red-600 flex items-center gap-1 group-hover:gap-2 transition-all">
                 Find venues <ChevronRight className="w-4 h-4" />
+              </div>
               </div>
             </Link>
           )

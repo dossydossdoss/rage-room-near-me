@@ -32,8 +32,17 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-gray-900 via-red-950 to-gray-900 text-white py-20 px-4">
-        <div className="max-w-4xl mx-auto text-center">
+      <section
+        className="relative text-white py-20 px-4 overflow-hidden"
+        style={{ backgroundColor: '#0f0f0f' }}
+      >
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: "url('/rage-room-smash-room-hero.webp')", opacity: 0.65 }}
+          aria-hidden="true"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-gray-900/80 via-red-950/70 to-gray-900/90" aria-hidden="true" />
+        <div className="relative z-10 max-w-4xl mx-auto text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
             <Hammer className="w-8 h-8 text-red-400" />
             <span className="text-red-400 font-semibold tracking-wide uppercase text-sm">Rage Room Directory USA</span>

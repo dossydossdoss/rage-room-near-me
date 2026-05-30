@@ -2,10 +2,12 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { ChevronRight, Clock, Tag } from 'lucide-react'
 import { getAllPosts } from '@/lib/blog'
+import { pageMeta } from '@/lib/seo'
 
 export const metadata: Metadata = {
   title: 'Rage Room Blog — Guides, Tips & Insights',
   description: 'Everything you need to know about rage rooms — costs, age limits, what to wear, occasion ideas, and more.',
+  ...pageMeta('/blog'),
 }
 
 const CATEGORY_COLORS: Record<string, string> = {

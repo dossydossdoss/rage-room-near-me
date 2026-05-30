@@ -2,10 +2,12 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { ChevronRight, MapPin } from 'lucide-react'
 import { allStates } from '@/lib/data'
+import { pageMeta } from '@/lib/seo'
 
 export const metadata: Metadata = {
   title: 'Rage Rooms by State — All 48 States',
   description: 'Browse rage rooms and smash rooms across all 48 US states. Find venues by state, then narrow down by city.',
+  ...pageMeta('/states'),
 }
 
 export default function StatesPage() {

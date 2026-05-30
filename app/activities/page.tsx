@@ -3,10 +3,12 @@ import Image from 'next/image'
 import type { Metadata } from 'next'
 import { ChevronRight } from 'lucide-react'
 import { getListingsByActivity } from '@/lib/data'
+import { pageMeta } from '@/lib/seo'
 
 export const metadata: Metadata = {
   title: 'Rage Room Activities — Browse by Experience Type',
   description: 'Find rage rooms by activity — smash rooms, axe throwing, paint rooms, car smash, VR, and archery venues across the USA.',
+  ...pageMeta('/activities'),
 }
 
 const ACTIVITIES = [

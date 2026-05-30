@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { ChevronRight } from 'lucide-react'
 import { getListingsByActivity } from '@/lib/data'
 import { activityLabel } from '@/lib/utils'
+import { pageMeta } from '@/lib/seo'
 import ListingsGrid from '@/components/ListingsGrid'
 
 const ACTIVITIES = ['rage-room', 'axe-throwing', 'paint-room', 'car-smash', 'vr', 'archery']
@@ -31,6 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${label} Near Me — Find Venues Across the USA`,
     description: `Find ${label.toLowerCase()} venues across the USA. Verified listings with ratings, prices, and direct booking. ${ACTIVITY_DESC[activity] ?? ''}`,
+    ...pageMeta(`/activities/${activity}`),
   }
 }
 

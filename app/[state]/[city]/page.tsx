@@ -3,7 +3,8 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { ChevronRight } from 'lucide-react'
 import { allStates, getState, getListingsByCity } from '@/lib/data'
-import { stateUrl } from '@/lib/utils'
+import { stateUrl, cityUrl } from '@/lib/utils'
+import { pageMeta } from '@/lib/seo'
 import ListingsGrid from '@/components/ListingsGrid'
 
 interface Props {
@@ -29,6 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Rage Rooms in ${cityEntry.name}, ${state.name}`,
     description: `Find rage rooms near ${cityEntry.name}, ${state.name}. ${cityEntry.count} verified ${cityEntry.count === 1 ? 'venue' : 'venues'} — compare prices, ratings, and activities. Book online.`,
+    ...pageMeta(cityUrl(stateSlug, citySlug)),
   }
 }
 

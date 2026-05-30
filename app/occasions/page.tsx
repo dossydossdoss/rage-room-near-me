@@ -2,10 +2,12 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { ChevronRight } from 'lucide-react'
 import { getListingsByOccasion } from '@/lib/data'
+import { pageMeta } from '@/lib/seo'
 
 export const metadata: Metadata = {
   title: 'Rage Rooms by Occasion — Birthday, Bachelorette, Corporate & More',
   description: 'Find the perfect rage room for any occasion. Birthday parties, bachelorette parties, corporate events, date nights, and kids-friendly venues across the USA.',
+  ...pageMeta('/occasions'),
 }
 
 const OCCASIONS = [

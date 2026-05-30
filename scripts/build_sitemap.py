@@ -25,6 +25,10 @@ blog_slugs = sorted([
 urls = []
 
 def add(loc, priority, changefreq='monthly'):
+    # Canonical URLs use a trailing slash (next.config trailingSlash: true).
+    # Emit the final URL so the sitemap never lists a redirecting URL.
+    if loc != '/' and not loc.endswith('/'):
+        loc = loc + '/'
     urls.append(f"""  <url>
     <loc>{BASE}{loc}</loc>
     <lastmod>{TODAY}</lastmod>

@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { ChevronRight } from 'lucide-react'
 import { getListingsByOccasion } from '@/lib/data'
 import { occasionLabel } from '@/lib/utils'
+import { pageMeta } from '@/lib/seo'
 import ListingsGrid from '@/components/ListingsGrid'
 
 const OCCASIONS = ['birthday', 'bachelorette', 'corporate', 'date-night', 'kids']
@@ -30,6 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${label} Rage Rooms — Find Venues Across the USA`,
     description: `Find rage rooms perfect for ${label.toLowerCase()}. ${OCCASION_DESC[occasion] ?? ''} Verified listings with ratings and direct booking.`,
+    ...pageMeta(`/occasions/${occasion}`),
   }
 }
 

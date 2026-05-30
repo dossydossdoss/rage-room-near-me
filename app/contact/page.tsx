@@ -1,10 +1,12 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { ChevronRight, Mail, Building2, AlertCircle } from 'lucide-react'
+import { pageMeta } from '@/lib/seo'
 
 export const metadata: Metadata = {
   title: 'Contact Us',
   description: 'Get in touch with Rage Room Near Me — listing corrections, business enquiries, or general questions.',
+  ...pageMeta('/contact'),
 }
 
 export default function ContactPage() {

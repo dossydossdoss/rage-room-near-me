@@ -2,10 +2,12 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { ChevronRight, Hammer, MapPin, Star, Users } from 'lucide-react'
 import { allListings, allStates } from '@/lib/data'
+import { pageMeta } from '@/lib/seo'
 
 export const metadata: Metadata = {
   title: 'About Us',
   description: 'About Rage Room Near Me — the most complete directory of rage rooms and smash rooms across the USA.',
+  ...pageMeta('/about'),
 }
 
 export default function AboutPage() {

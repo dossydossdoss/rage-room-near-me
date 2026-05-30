@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { MapPin, Phone, Globe, Clock, ChevronRight, Star, Users, Gift, ExternalLink, CheckCircle2 } from 'lucide-react'
 import { allListings, allStates, getListing, getListingsByCity } from '@/lib/data'
 import { formatPrice, formatRating, getActivities, getOccasions, stateUrl, cityUrl, listingUrl, cn } from '@/lib/utils'
+import { pageMeta } from '@/lib/seo'
 import ListingCard from '@/components/ListingCard'
 
 interface Props {
@@ -25,6 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${listing.name} — Rage Room in ${listing.city}, ${listing.state}`,
     description: `${listing.name} is a rage room in ${listing.city}, ${listing.state}. ${listing.rating ? `Rated ${listing.rating}/5 from ${listing.reviews} reviews.` : ''} ${formatPrice(listing.price_min, listing.price_max)}. Book online.`,
+    ...pageMeta(listingUrl(state, city, slug)),
   }
 }
 

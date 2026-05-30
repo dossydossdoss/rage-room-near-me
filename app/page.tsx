@@ -1,8 +1,14 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { MapPin, Hammer, Users, ChevronRight } from 'lucide-react'
 import { allStates, allListings, topRated } from '@/lib/data'
+import { pageMeta } from '@/lib/seo'
 import HomeSearch from '@/components/HomeSearch'
 import FeaturedCarousel from '@/components/FeaturedCarousel'
+
+export const metadata: Metadata = {
+  ...pageMeta('/'),
+}
 
 // Seeded shuffle — consistent per build, different from alphabetical
 function seededShuffle<T>(arr: T[]): T[] {

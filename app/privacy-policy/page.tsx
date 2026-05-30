@@ -1,10 +1,12 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { ChevronRight } from 'lucide-react'
+import { pageMeta } from '@/lib/seo'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: 'Privacy Policy for Rage Room Near Me — how we collect, use, and protect your data.',
+  ...pageMeta('/privacy-policy'),
 }
 
 export default function PrivacyPolicyPage() {

@@ -1,0 +1,19 @@
+# Hostinger (Apache) — deployed verbatim from public/ to public_html/.
+# Canonical host = https://rageroomnearme.org (non-www). Dedupes the
+# www/non-www + http/https variants Ahrefs flagged as duplicates.
+
+RewriteEngine On
+
+# Strip www -> apex (carries straight to https in one hop).
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
+
+# Force HTTPS on the apex host.
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Static export ships directory-style URLs (/florida/index.html).
+# Apache's DirectorySlash already 301s /florida -> /florida/, which now
+# resolves 200 instead of the previous 403.
+
+ErrorDocument 404 /404.html
